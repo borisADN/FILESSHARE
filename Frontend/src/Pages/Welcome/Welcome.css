@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.welcome {
+  font-family: "Montserrat", sans-serif;
+  background: url(../../assets/bg-hero.png) no-repeat;
+  background-color: #1363c6 !important;
+  height: 97vh;
+  background-size: cover;
+}
+
+.welcome nav a {
+  /* background-color: #2211be; */
+  color: white;
+  /* padding: 30px; */
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  width: 100px;
+}
+.welcome nav a {
+  text-decoration: none;
+}
+.body h1 {
+  font-size: 45px;
+  font-family: "Dancing Script", cursive;
+}
+
+.welcome nav img {
+  margin-top: -30px;
+  width: 200px;
+}
+.pacifico {
+  font-family: "Pacifico", cursive;
+  margin-left: -50px;
+  margin-top: -50px;
+  font-size: 30px;
+}
+
+.body {
+  font-family: "Montserrat", sans-serif;
+  color: antiquewhite;
+  display: grid;
+  padding: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+}
+
+.body img {
+  margin-top: -80px;
+  width: 450px;
+  animation: animation1 30s linear 0s infinite normal none;
+}
+
+@keyframes animation1 {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.body h2 {
+  background-color: #000080;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.body a{
+  text-decoration: none;
+  transition: 0.5s;
+  color: white;
+}
+
+.body h2:hover {
+  background-color: #16034e;
+}

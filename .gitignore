@@ -1,0 +1,90 @@
+# --- Logs ---
+/Frontend/logs
+/Frontend/*.log
+/Frontend/npm-debug.log*
+/Frontend/yarn-debug.log*
+/Frontend/yarn-error.log*
+/Frontend/pnpm-debug.log*
+/Frontend/lerna-debug.log*
+
+# --- Dépendances ---
+/Frontend/node_modules
+
+# --- Build ---
+/Frontend/dist
+/Frontend/dist-ssr
+/Frontend/*.local
+
+# --- Dossiers & fichiers éditeurs ---
+/Frontend/.vscode/*
+!/Frontend/.vscode/extensions.json
+/Frontend/.idea
+/Frontend/.DS_Store
+/Frontend/*.suo
+/Frontend/*.ntvs*
+/Frontend/*.njsproj
+/Frontend/*.sln
+/Frontend/*.sw?
+
+# LARAVEL BACKEND
+
+# --- Logs ---
+/Backend/logs
+/Backend/*.log
+/Backend/*.err
+
+# --- Dépendances ---
+/Backend/vendor	
+
+# --- Build ---
+/Backend/storage
+
+# --- Dossiers & fichiers éditeurs ---
+/Backend/.vscode/*
+!/Backend/.vscode/extensions.json
+/Backend/.idea
+/Backend/.DS_Store
+/Backend/*.suo
+/Backend/*.ntvs*
+/Backend/*.njsproj
+/Backend/*.sln
+
+# --- Créé par https://gitignore.org ---
+# Backend (Laravel).gitignore
+
+/Backend/vendor/
+/Backend/node_modules/
+/Backend/npm-debug.log
+/Backend/yarn-error.log
+
+# --- Laravel 4 spécifique ---
+/Backend/bootstrap/compiled.php
+/Backend/app/storage/
+
+# --- Laravel 5 & Lumen spécifique ---
+/Backend/public/storage
+/Backend/public/hot
+
+# --- Laravel 5 & Lumen avec public path changé ---
+/Backend/public_html/storage
+/Backend/public_html/hot
+
+/Backend/storage/*.key
+/Backend/.env
+/Backend/Homestead.yaml
+/Backend/Homestead.json
+/Backend/.vagrant
+/Backend/.phpunit.result.cache
+
+/Backend/public/build
+/Backend/storage/pail
+/Backend/.env.backup
+/Backend/.env.production
+/Backend/.phpactor.json
+/Backend/auth.json
+
+# --- Ignorer tout dans uploads ---
+/Backend/public/uploads/*
+
+# --- Sauf ce fichier précis ---
+!/Backend/uploads/default.png
