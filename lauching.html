@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+	--FRONTEND--
+	npm install
+	npm run dev
+
+	--BACKEND--
+composer update
+cp .env.example .env
+mkdir -p storage/framework/views
+php artisan key:generate
+php artisan migrate
+php artisan serve
+
+</body>
+</html>
